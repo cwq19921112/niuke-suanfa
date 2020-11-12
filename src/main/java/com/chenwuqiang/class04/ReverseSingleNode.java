@@ -22,20 +22,22 @@ public class ReverseSingleNode {
     }
 
     public static void main(String[] args) {
-        Node reverseDouble = reverseDouble(head);
-        NodeUtils.printNodesDouble(reverseDouble);
+        Node reverseDouble = reverseSingle(head);
+        NodeUtils.printNodes(reverseDouble);
     }
 
     public static Node reverseSingle(Node head) {
-        Node pre = null;
-        Node next = head;
-        while (next != null) {
-            Node nextNext = next.getNext();
-            next.setNext(pre);
-            pre = next;
-            next = nextNext;
+        Node n1 = null;
+        Node n2 = head;
+        Node n3 = null;
+        while (n2 != null) {
+            n3 = n2.getNext();
+            n2.setNext(n1);
+            n1 = n2;
+            n2 = n3;
         }
-        return pre;
+        head = n1;
+        return head;
     }
 
     public static Node reverseDouble(Node node) {
