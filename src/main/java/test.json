@@ -1,1603 +1,765 @@
-[
-  {
-    "orgId": "5e01ba2e89977558c3167a0a",
-    "orgName": "深圳市监局(办公通)",
-    "orgTreeListRspDTOS": [
+{
+  "code": "SUCCESS:00000000",
+  "msg": null,
+  "data": {
+    "colModel": [
       {
-        "orgId": "5e01ba2e89977558c3167a10",
-        "orgName": "福田局",
-        "orgTreeListRspDTOS": [
+        "id": "30eac0305686465c96f35f6c6931c8cb",
+        "columnId": "project_id",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "project_id",
+        "label": "project_id",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 0
+      },
+      {
+        "id": "169351b86299406986ed14e351a9c358",
+        "columnId": "process_inst_id",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "process_inst_id",
+        "label": "process_inst_id",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 1
+      },
+      {
+        "id": "95faa1f30dc34cc6921e4bb37fa7e895",
+        "columnId": "show_doc_status",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "75px",
+        "outlookConf": "{\"colWidth\":\"75px\",\"align\":0,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "show_doc_status",
+        "label": "show_doc_status",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 2
+      },
+      {
+        "id": "dcdd4be04d1a4b2ebed2b50e28ee84fa",
+        "columnId": "situ_id",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "situ_id",
+        "label": "situ_id",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 3
+      },
+      {
+        "id": "175a80184ccf4ed3aa9a8037906fe770",
+        "columnId": "sheet_id",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "sheet_id",
+        "label": "sheet_id",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 4
+      },
+      {
+        "id": "f9482aee371b48e4bc631b7d3c609e2c",
+        "columnId": "task_id",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "task_id",
+        "label": "task_id",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 5
+      },
+      {
+        "id": "d617545df08c4b45a708c8425042a92c",
+        "columnId": "item_id",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "item_id",
+        "label": "item_id",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 6
+      },
+      {
+        "id": "4eb1400c3d0c4b5682ee663bb56a4fb8",
+        "columnId": "process_overdue_type",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "process_overdue_type",
+        "label": "全流程进度",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 7
+      },
+      {
+        "id": "984951c3c1344f32836f9db048453ba3",
+        "columnId": "process_remaining_days",
+        "isFilter": false,
+        "align": "center",
+        "fontSize": "14px",
+        "width": "70px",
+        "outlookConf": "{\"colWidth\":\"70px\",\"align\":1,\"fontSize\":14}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "process_remaining_days",
+        "label": "全流程剩余|工作日",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 8
+      },
+      {
+        "id": "3f2d6546b8ac456482a5c6fef3bf0b3a",
+        "columnId": "item_name",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "150px",
+        "outlookConf": "{\"colWidth\":\"150px\",\"align\":0,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "item_name",
+        "label": " 事项名称",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 9
+      },
+      {
+        "id": "2065460e73f6426db2e6829b25c6354b",
+        "columnId": "situation_name",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "100px",
+        "outlookConf": "{\"colWidth\":\"100px\",\"align\":0,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "situation_name",
+        "label": "情形名称",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 10
+      },
+      {
+        "id": "08e57855d13f4703ae1c073215104918",
+        "columnId": "item_type_name",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "75px",
+        "outlookConf": "{\"colWidth\":\"75px\",\"align\":0,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "item_type_name",
+        "label": "事项行业类别",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 11
+      },
+      {
+        "id": "6fea136be71a4949878d841433c26b37",
+        "columnId": "online_num",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "14px",
+        "width": "170px",
+        "outlookConf": "{\"colWidth\":\"170px\",\"align\":0,\"fontSize\":14}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "online_num",
+        "label": "网上申请号",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 12
+      },
+      {
+        "id": "70013c17e44e4a42a25be7c5103659b3",
+        "columnId": "internal_stage",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "internal_stage",
+        "label": " 流程状态",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 13
+      },
+      {
+        "id": "960a2ea8ce784a3ca1584c7bcc889ca8",
+        "columnId": "hang_status",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "hang_status",
+        "label": "是否挂起",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 14
+      },
+      {
+        "id": "543b749038d6412fac776374b0851cbc",
+        "columnId": "apply_entity",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "100px",
+        "outlookConf": "{\"colWidth\":\"100px\",\"align\":0,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "apply_entity",
+        "label": "申请主体",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 15
+      },
+      {
+        "id": "02a4527c219e47ed9f3533d57fe9387a",
+        "columnId": "task_overdue_type",
+        "isFilter": false,
+        "align": "center",
+        "fontSize": "14px",
+        "width": "70px",
+        "outlookConf": "{\"colWidth\":\"70px\",\"align\":1,\"fontSize\":14}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "task_overdue_type",
+        "label": "阶段任务|进度",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 16
+      },
+      {
+        "id": "b680be64643d4257beb2e753a65c9f29",
+        "columnId": "task_remaining_days",
+        "isFilter": false,
+        "align": "center",
+        "fontSize": "14px",
+        "width": "70px",
+        "outlookConf": "{\"colWidth\":\"70px\",\"align\":1,\"fontSize\":14}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "task_remaining_days",
+        "label": "任务剩余|工作日",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 17
+      },
+      {
+        "id": "d7539473de8b46e5944977f5ccb2d293",
+        "columnId": "task_begin_time",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "task_begin_time",
+        "label": "task_begin_time",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 18
+      },
+      {
+        "id": "1f7ef5c1652c4087ae16c7a7841691b0",
+        "columnId": "task_end_time",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "task_end_time",
+        "label": "task_end_time",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 19
+      },
+      {
+        "id": "a2b5b7f0ad4246cd9dcb7f1629ce3615",
+        "columnId": "process_begin_time",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "process_begin_time",
+        "label": "process_begin_time",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 20
+      },
+      {
+        "id": "af51d3f8409f47c38d0e63521c8ba407",
+        "columnId": "process_end_time",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "70px",
+        "outlookConf": "",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "process_end_time",
+        "label": "process_end_time",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 21
+      },
+      {
+        "id": "e1f5f79d3dc944f39e769d66f6635b3c",
+        "columnId": "target",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "75px",
+        "outlookConf": "{\"colWidth\":\"75px\",\"align\":0,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "target",
+        "label": "target",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 22
+      },
+      {
+        "id": "b083cf7c29804a5b89a24ce38f75edbd",
+        "columnId": "apply_source",
+        "isFilter": false,
+        "align": "center",
+        "fontSize": "12px",
+        "width": "75px",
+        "outlookConf": "{\"colWidth\":\"75px\",\"align\":1,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "apply_source",
+        "label": "申请来源",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 23
+      },
+      {
+        "id": "ed1d54f9450f4a07bb5de0b11a2b73f3",
+        "columnId": "",
+        "isFilter": false,
+        "align": "right",
+        "fontSize": "14px",
+        "width": "100px",
+        "outlookConf": "{\"colWidth\":\"100px\",\"align\":2,\"fontSize\":14}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "action",
+        "label": "操作",
+        "ishidden": false,
+        "isUsedValue": false,
+        "orderIndex": 23
+      },
+      {
+        "id": "0dc88f9e6f9b484bb6ff8b14b71e657a",
+        "columnId": "uid",
+        "isFilter": false,
+        "align": "left",
+        "fontSize": "12px",
+        "width": "75px",
+        "outlookConf": "{\"colWidth\":\"75px\",\"align\":0,\"fontSize\":12}",
+        "dwViewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "field": "uid",
+        "label": "uid",
+        "ishidden": true,
+        "isUsedValue": true,
+        "orderIndex": 24
+      }
+    ],
+    "conditionModel": [
+      {
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "{\"referenceConfList\":[{\"_XID\":\"row_29\",\"label\":\"正常\",\"value\":\"1\"},{\"_XID\":\"row_30\",\"label\":\"逾期\",\"value\":\"2\"},{\"_XID\":\"row_31\",\"label\":\"预警\",\"value\":\"3\"}],\"type\":0}",
+        "referenceConfList": [
           {
-            "orgId": "5e01ba2f89977558c3167ace",
-            "orgName": "沙头所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 2
+            "label": "正常",
+            "value": "1"
           },
           {
-            "orgId": "5e01ba2f89977558c3167acc",
-            "orgName": "梅林所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 3
+            "label": "逾期",
+            "value": "2"
           },
           {
-            "orgId": "5e01ba2f89977558c3167ad3",
-            "orgName": "华富所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 4
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167acf",
-            "orgName": "香蜜湖所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 5
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167acb",
-            "orgName": "莲花所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 6
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167aca",
-            "orgName": "华强北所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 7
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ad1",
-            "orgName": "福保所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 8
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ad2",
-            "orgName": "福田所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 9
-          },
-          {
-            "orgId": "5e47a36f4e6b4477fbb28738",
-            "orgName": "福田局农牧科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 10
-          },
-          {
-            "orgId": "5e47a74789977507465ccca6",
-            "orgName": "福田局动监所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 11
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a4c",
-            "orgName": "福田局办公室",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 12
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a75",
-            "orgName": "福田局党建人事科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 13
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a6c",
-            "orgName": "福田局法制科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 14
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ac6",
-            "orgName": "福田局指挥协调科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 15
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a2a",
-            "orgName": "福田局许可注册科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 16
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ac1",
-            "orgName": "福田局信用监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 17
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ab9",
-            "orgName": "福田局市场消保广告科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 18
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ac3",
-            "orgName": "福田局质量标准计量科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 19
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a94",
-            "orgName": "福田局特种设备安全监察科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 20
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a9f",
-            "orgName": "福田局知识产权科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 21
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ac5",
-            "orgName": "福田局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 22
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167abf",
-            "orgName": "福田局农业和畜牧兽医科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 23
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a9a",
-            "orgName": "福田局药品化妆品监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 24
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a9b",
-            "orgName": "福田局医疗器械监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 25
-          },
-          {
-            "orgId": "5e47a3f789977507465ccc97",
-            "orgName": "福田局稽查一科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 26
-          },
-          {
-            "orgId": "5e47a46389977507465ccc9b",
-            "orgName": "福田局稽查二科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 27
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ad0",
-            "orgName": "园岭所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 28
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167acd",
-            "orgName": "南园所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2e89977558c3167a10",
-            "parentName": "福田局",
-            "seqNo": 29
+            "label": "预警",
+            "value": "3"
           }
         ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 1
+        "authorize": "",
+        "uniqueId": "054e246c680a48f5a3c3001655bafa17",
+        "ID": "054e246c680a48f5a3c3001655bafa17",
+        "FIELD": "process_overdue_type",
+        "LABEL": "全流程进度",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 4,
+        "UICOMPONET": "列表",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 0,
+        "DATA": {
+          "1": "正常",
+          "2": "逾期",
+          "3": "预警"
+        }
       },
       {
-        "orgId": "5e01ba2f89977558c3167a2b",
-        "orgName": "罗湖局",
-        "orgTreeListRspDTOS": [
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "",
+        "referenceConfList": [],
+        "authorize": "",
+        "uniqueId": "88319c974d4c4349b52c0c31fd1cd9c2",
+        "ID": "88319c974d4c4349b52c0c31fd1cd9c2",
+        "FIELD": "item_name",
+        "LABEL": "事项名称",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 0,
+        "UICOMPONET": "文本",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 1,
+        "DATA": {}
+      },
+      {
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "",
+        "referenceConfList": [],
+        "authorize": "",
+        "uniqueId": "e7d9d654546945a0bdc25a9b133c3572",
+        "ID": "e7d9d654546945a0bdc25a9b133c3572",
+        "FIELD": "situation_name",
+        "LABEL": "情形名称",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 0,
+        "UICOMPONET": "文本",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 2,
+        "DATA": {}
+      },
+      {
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "",
+        "referenceConfList": [],
+        "authorize": "",
+        "uniqueId": "8904af6d99654259a21b426e31464e95",
+        "ID": "8904af6d99654259a21b426e31464e95",
+        "FIELD": "apply_entity",
+        "LABEL": "申请主体",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 0,
+        "UICOMPONET": "文本",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 3,
+        "DATA": {}
+      },
+      {
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "",
+        "referenceConfList": [],
+        "authorize": "",
+        "uniqueId": "48daefaf7e1c4db8851a95b520ecd3eb",
+        "ID": "48daefaf7e1c4db8851a95b520ecd3eb",
+        "FIELD": "online_num",
+        "LABEL": "网上申请号",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 0,
+        "UICOMPONET": "文本",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 4,
+        "DATA": {}
+      },
+      {
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "{\"referenceConfList\":[{\"_XID\":\"row_56\",\"label\":\"待补齐补正\",\"value\":\"待补齐补正\"},{\"_XID\":\"row_57\",\"label\":\"待预审\",\"value\":\"待预审\"},{\"_XID\":\"row_58\",\"label\":\"待受理\",\"value\":\"待受理\"},{\"_XID\":\"row_59\",\"label\":\"待材料审核\",\"value\":\"待材料审核\"},{\"_XID\":\"row_60\",\"label\":\"待初审\",\"value\":\"待初审\"},{\"_XID\":\"row_61\",\"label\":\"待书面核查\",\"value\":\"待书面核查\"},{\"_XID\":\"row_62\",\"label\":\"待核查分派\",\"value\":\"待核查分派\"},{\"_XID\":\"row_63\",\"label\":\"待现场核查\",\"value\":\"待现场核查\"},{\"_XID\":\"row_64\",\"label\":\"待核查公示\",\"value\":\"待核查公示\"},{\"_XID\":\"row_65\",\"label\":\"待验收分派\",\"value\":\"待验收分派\"},{\"_XID\":\"row_66\",\"label\":\"待验收录入\",\"value\":\"待验收录入\"},{\"_XID\":\"row_67\",\"label\":\"待验收审核\",\"value\":\"待验收审核\"},{\"_XID\":\"row_68\",\"label\":\"待技术审查\",\"value\":\"待技术审查\"},{\"_XID\":\"row_69\",\"label\":\"待审核\",\"value\":\"待审核\"},{\"_XID\":\"row_70\",\"label\":\"待审批\",\"value\":\"待审批\"},{\"_XID\":\"row_71\",\"label\":\"待打证\",\"value\":\"待打证\"},{\"_XID\":\"row_72\",\"label\":\"待审批撤销\",\"value\":\"待审批撤销\"},{\"_XID\":\"row_73\",\"label\":\"待撤回审批\",\"value\":\"待撤回审批\"},{\"_XID\":\"row_74\",\"label\":\"撤回办结\",\"value\":\"撤回办结\"},{\"_XID\":\"row_75\",\"label\":\"终止办结\",\"value\":\"终止办结\"},{\"_XID\":\"row_76\",\"label\":\"不受理办结\",\"value\":\"不受理办结\"},{\"_XID\":\"row_77\",\"label\":\"未通过办结\",\"value\":\"未通过办结\"},{\"_XID\":\"row_78\",\"label\":\"已通过办结\",\"value\":\"已通过办结\"}],\"sqlConf\":{\"displayName\":\"\",\"sqlConstant\":\"\",\"valueName\":\"\"},\"type\":0}",
+        "referenceConfList": [
           {
-            "orgId": "5e01ba3089977558c3167adf",
-            "orgName": "罗湖局特设科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 2
+            "label": "待补齐补正",
+            "value": "待补齐补正"
           },
           {
-            "orgId": "5e4f8c7c4e6b4477fbb287f2",
-            "orgName": "罗湖局信用科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 4
+            "label": "待预审",
+            "value": "待预审"
           },
           {
-            "orgId": "5e01ba3089977558c3167ae5",
-            "orgName": "罗湖局标准计量科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 5
+            "label": "待受理",
+            "value": "待受理"
           },
           {
-            "orgId": "5e01ba3089977558c3167adc",
-            "orgName": "罗湖局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 6
+            "label": "待材料审核",
+            "value": "待材料审核"
           },
           {
-            "orgId": "5e4f8c2989977507465ccd46",
-            "orgName": "罗湖局稽查一科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 7
+            "label": "待初审",
+            "value": "待初审"
           },
           {
-            "orgId": "5e479f2e4e6b4477fbb2872b",
-            "orgName": "罗湖局稽查二科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 8
+            "label": "待书面核查",
+            "value": "待书面核查"
           },
           {
-            "orgId": "5e01ba3089977558c3167af1",
-            "orgName": "莲塘所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 9
+            "label": "待核查分派",
+            "value": "待核查分派"
           },
           {
-            "orgId": "5e01ba3089977558c3167aea",
-            "orgName": "东湖所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 10
+            "label": "待现场核查",
+            "value": "待现场核查"
           },
           {
-            "orgId": "5e01ba3089977558c3167af0",
-            "orgName": "黄贝所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 11
+            "label": "待核查公示",
+            "value": "待核查公示"
           },
           {
-            "orgId": "5e01ba3089977558c3167ae8",
-            "orgName": "翠竹所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 12
+            "label": "待验收分派",
+            "value": "待验收分派"
           },
           {
-            "orgId": "5e01ba3089977558c3167ae9",
-            "orgName": "南湖所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 13
+            "label": "待验收录入",
+            "value": "待验收录入"
           },
           {
-            "orgId": "5e01ba3089977558c3167aeb",
-            "orgName": "清水河所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 14
+            "label": "待验收审核",
+            "value": "待验收审核"
           },
           {
-            "orgId": "5e01ba3089977558c3167aed",
-            "orgName": "笋岗所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 15
+            "label": "待技术审查",
+            "value": "待技术审查"
           },
           {
-            "orgId": "5e01ba3089977558c3167aee",
-            "orgName": "东晓所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 16
+            "label": "待审核",
+            "value": "待审核"
           },
           {
-            "orgId": "5e01ba3089977558c3167aef",
-            "orgName": "桂园所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 17
+            "label": "待审批",
+            "value": "待审批"
           },
           {
-            "orgId": "5e01ba3089977558c3167aec",
-            "orgName": "东门所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a2b",
-            "parentName": "罗湖局",
-            "seqNo": 18
+            "label": "待打证",
+            "value": "待打证"
+          },
+          {
+            "label": "待审批撤销",
+            "value": "待审批撤销"
+          },
+          {
+            "label": "待撤回审批",
+            "value": "待撤回审批"
+          },
+          {
+            "label": "撤回办结",
+            "value": "撤回办结"
+          },
+          {
+            "label": "终止办结",
+            "value": "终止办结"
+          },
+          {
+            "label": "不受理办结",
+            "value": "不受理办结"
+          },
+          {
+            "label": "未通过办结",
+            "value": "未通过办结"
+          },
+          {
+            "label": "已通过办结",
+            "value": "已通过办结"
           }
         ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 2
+        "authorize": "",
+        "uniqueId": "170ffc063ef147528544c5b977d3df7f",
+        "ID": "170ffc063ef147528544c5b977d3df7f",
+        "FIELD": "internal_stage",
+        "LABEL": "流程状态",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 4,
+        "UICOMPONET": "列表",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 5,
+        "DATA": {
+          "待补齐补正": "待补齐补正",
+          "待预审": "待预审",
+          "待受理": "待受理",
+          "待材料审核": "待材料审核",
+          "待初审": "待初审",
+          "待书面核查": "待书面核查",
+          "待核查分派": "待核查分派",
+          "待现场核查": "待现场核查",
+          "待核查公示": "待核查公示",
+          "待验收分派": "待验收分派",
+          "待验收录入": "待验收录入",
+          "待验收审核": "待验收审核",
+          "待技术审查": "待技术审查",
+          "待审核": "待审核",
+          "待审批": "待审批",
+          "待打证": "待打证",
+          "待审批撤销": "待审批撤销",
+          "待撤回审批": "待撤回审批",
+          "撤回办结": "撤回办结",
+          "终止办结": "终止办结",
+          "不受理办结": "不受理办结",
+          "未通过办结": "未通过办结",
+          "已通过办结": "已通过办结"
+        }
       },
       {
-        "orgId": "5e01ba2f89977558c3167a3c",
-        "orgName": "盐田局",
-        "orgTreeListRspDTOS": [
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "{\"referenceConfList\":[{\"_XID\":\"row_55\",\"label\":\"已挂起\",\"value\":\"1\"},{\"_XID\":\"row_56\",\"label\":\" 未挂起\",\"value\":\"0\"}],\"type\":0}",
+        "referenceConfList": [
           {
-            "orgId": "5e01ba2e89977558c3167a13",
-            "orgName": "盐田局稽查科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
+            "label": "已挂起",
+            "value": "1"
           },
           {
-            "orgId": "5e01ba2f89977558c3167a3d",
-            "orgName": "盐田局人事监察科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a4d",
-            "orgName": "盐田局食安科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a62",
-            "orgName": "盐田局特设科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a6d",
-            "orgName": "盐田局质量标准计量科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a76",
-            "orgName": "盐田局药监科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a7d",
-            "orgName": "盐田局办公室",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a88",
-            "orgName": "盐田局法制科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e47c1124e6b4477fbb287a6",
-            "orgName": "盐田局指挥协调科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e47c25989977507465ccd04",
-            "orgName": "盐田局信用监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e47c59b4e6b4477fbb287b8",
-            "orgName": "盐田局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2e89977558c3167a14",
-            "orgName": "海山所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a2e",
-            "orgName": "梅沙所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a3e",
-            "orgName": "盐田所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a4e",
-            "orgName": "沙头角所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a3c",
-            "parentName": "盐田局",
-            "seqNo": 1
+            "label": " 未挂起",
+            "value": "0"
           }
         ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 3
+        "authorize": "",
+        "uniqueId": "9f613d58fcd74c84bbaa7dc6f67f3217",
+        "ID": "9f613d58fcd74c84bbaa7dc6f67f3217",
+        "FIELD": "hang_status",
+        "LABEL": "是否挂起",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 4,
+        "UICOMPONET": "列表",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 6,
+        "DATA": {
+          "1": "已挂起",
+          "0": " 未挂起"
+        }
       },
       {
-        "orgId": "5e01ba2f89977558c3167a4f",
-        "orgName": "南山局",
-        "orgTreeListRspDTOS": [
+        "dataviewId": "29edacc00e414134a6cd7d25ebc9aa6f",
+        "columnId": "",
+        "dataType": 0,
+        "referenceConf": "{\"referenceConfList\":[],\"sqlConf\":{\"displayName\":\"item_type_name\",\"sqlConstant\":\"select item_type_name from biz_apply_item_type;\",\"valueName\":\"item_type_name\"},\"type\":1}",
+        "referenceConfList": [
           {
-            "orgId": "5e01ba3089977558c3167af4",
-            "orgName": "南山局特设科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 1
+            "label": "农业类",
+            "value": "农业类"
           },
           {
-            "orgId": "5e01ba3089977558c3167af6",
-            "orgName": "南山局药品监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 2
+            "label": "医械类",
+            "value": "医械类"
           },
           {
-            "orgId": "5e01ba3089977558c3167af7",
-            "orgName": "南山局医械监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 3
+            "label": "市场类",
+            "value": "市场类"
           },
           {
-            "orgId": "5e01ba3089977558c3167af8",
-            "orgName": "南山局知识产权科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 4
+            "label": "特设类",
+            "value": "特设类"
           },
           {
-            "orgId": "5e01ba3089977558c3167afa",
-            "orgName": "南山局注册科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 5
+            "label": "其他",
+            "value": "其他"
           },
           {
-            "orgId": "5e01ba3089977558c3167afb",
-            "orgName": "南山局办公室",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 6
+            "label": "信用类",
+            "value": "信用类"
           },
           {
-            "orgId": "5e01ba3089977558c3167afd",
-            "orgName": "南山局法制科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 7
+            "label": "质量类",
+            "value": "质量类"
           },
           {
-            "orgId": "5e01ba3089977558c3167b00",
-            "orgName": "南山局人事监察科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 8
+            "label": "药品类",
+            "value": "药品类"
           },
           {
-            "orgId": "5e01ba3089977558c3167b01",
-            "orgName": "南山局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 9
+            "label": "计量类",
+            "value": "计量类"
           },
           {
-            "orgId": "5e01ba3089977558c3167b04",
-            "orgName": "南山局市场科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 10
+            "label": "化妆品类",
+            "value": "化妆品类"
           },
           {
-            "orgId": "5e47bba689977507465cccdf",
-            "orgName": "南山局指挥科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 11
+            "label": "畜牧类",
+            "value": "畜牧类"
           },
           {
-            "orgId": "5e630b9f4e6b4477fbb2880f",
-            "orgName": "南山局稽查一科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 12
+            "label": "广告类",
+            "value": "广告类"
           },
           {
-            "orgId": "5e630bd989977507465ccd65",
-            "orgName": "南山局稽查二科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 13
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b07",
-            "orgName": "南山所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 14
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b08",
-            "orgName": "南头所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 15
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b09",
-            "orgName": "沙河所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 16
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b0a",
-            "orgName": "蛇口所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 17
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b0b",
-            "orgName": "桃源所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 18
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b0c",
-            "orgName": "西丽所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 19
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b0d",
-            "orgName": "粤海所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 20
-          },
-          {
-            "orgId": "5e47bb164e6b4477fbb2878a",
-            "orgName": "前海组",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a4f",
-            "parentName": "南山局",
-            "seqNo": 21
+            "label": "食品经营与生产",
+            "value": "食品经营与生产"
           }
         ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 4
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a5a",
-        "orgName": "宝安局",
-        "orgTreeListRspDTOS": [
-          {
-            "orgId": "5e01ba3089977558c3167b0f",
-            "orgName": "宝安局消保科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b1a",
-            "orgName": "宝安局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 2
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b17",
-            "orgName": "宝安局农管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 3
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b12",
-            "orgName": "宝安局药品监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 4
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b19",
-            "orgName": "宝安局医械科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 5
-          },
-          {
-            "orgId": "5e478e7789977507465ccc68",
-            "orgName": "宝安局畜牧科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 6
-          },
-          {
-            "orgId": "5e478f554e6b4477fbb28709",
-            "orgName": "宝安局稽查一科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 7
-          },
-          {
-            "orgId": "5e478f7f89977507465ccc6b",
-            "orgName": "宝安局稽查二科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 8
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a30",
-            "orgName": "新安所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 9
-          },
-          {
-            "orgId": "5e01ba2e89977558c3167a16",
-            "orgName": "西乡所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 10
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a6e",
-            "orgName": "航城所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 11
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a63",
-            "orgName": "福永所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 12
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a50",
-            "orgName": "福海所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 13
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a7e",
-            "orgName": "沙井所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 14
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a40",
-            "orgName": "新桥所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 15
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a84",
-            "orgName": "松岗所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 16
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a5b",
-            "orgName": "燕罗所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 17
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167a77",
-            "orgName": "石岩所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a5a",
-            "parentName": "宝安局",
-            "seqNo": 18
-          }
-        ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 5
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a64",
-        "orgName": "龙岗局",
-        "orgTreeListRspDTOS": [
-          {
-            "orgId": "5e01ba3089977558c3167b31",
-            "orgName": "坂田所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b32",
-            "orgName": "宝龙所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 2
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b33",
-            "orgName": "布吉所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 3
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b34",
-            "orgName": "横岗所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 4
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b35",
-            "orgName": "吉华所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 5
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b36",
-            "orgName": "龙城所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 6
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b37",
-            "orgName": "龙岗所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 7
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b38",
-            "orgName": "南湾所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 8
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b39",
-            "orgName": "平湖所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 9
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b3a",
-            "orgName": "平南所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 10
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b3b",
-            "orgName": "坪地所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 11
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b3c",
-            "orgName": "园山所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 12
-          },
-          {
-            "orgId": "5e479de089977507465ccc7c",
-            "orgName": "龙岗局稽查一科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 13
-          },
-          {
-            "orgId": "5e479e304e6b4477fbb2871e",
-            "orgName": "龙岗局稽查二科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 14
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b2b",
-            "orgName": "龙岗局药品监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 15
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b2d",
-            "orgName": "龙岗局医械科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 16
-          },
-          {
-            "orgId": "5e479e1f4e6b4477fbb2871c",
-            "orgName": "龙岗局畜牧兽医科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 17
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b2f",
-            "orgName": "龙岗局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 18
-          },
-          {
-            "orgId": "5e479da689977507465ccc77",
-            "orgName": "龙岗局指挥协调科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a64",
-            "parentName": "龙岗局",
-            "seqNo": 20
-          }
-        ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 6
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a6f",
-        "orgName": "龙华局",
-        "orgTreeListRspDTOS": [
-          {
-            "orgId": "5e01ba3089977558c3167b40",
-            "orgName": "龙华局市场科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b42",
-            "orgName": "龙华局办公室",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b46",
-            "orgName": "龙华局药品科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b4c",
-            "orgName": "龙华局食品安全监督管理科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e479e6d4e6b4477fbb28720",
-            "orgName": "龙华局指挥协调科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e479eb14e6b4477fbb28723",
-            "orgName": "龙华局农业和畜牧兽医科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e479ebc89977507465ccc83",
-            "orgName": "龙华局稽查二科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e479ed54e6b4477fbb28727",
-            "orgName": "龙华局医疗器械监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e479ef44e6b4477fbb28729",
-            "orgName": "龙华局稽查一科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b4f",
-            "orgName": "大浪所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b51",
-            "orgName": "福城所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b53",
-            "orgName": "观湖所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b54",
-            "orgName": "观澜所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b55",
-            "orgName": "龙华所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b56",
-            "orgName": "民治所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a6f",
-            "parentName": "龙华局",
-            "seqNo": 1
-          }
-        ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 7
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a78",
-        "orgName": "坪山局",
-        "orgTreeListRspDTOS": [
-          {
-            "orgId": "5e01ba3089977558c3167b59",
-            "orgName": "坪山局办公室",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b5a",
-            "orgName": "坪山局法制科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b5b",
-            "orgName": "坪山局稽查科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b5d",
-            "orgName": "坪山局人事监察科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b5e",
-            "orgName": "坪山局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b60",
-            "orgName": "坪山局特设科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b62",
-            "orgName": "坪山局药品科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b63",
-            "orgName": "坪山局质量标准计量科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e4764c489977507465ccc43",
-            "orgName": "坪山局指挥科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b65",
-            "orgName": "坑梓所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b66",
-            "orgName": "龙田所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b67",
-            "orgName": "马峦所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b68",
-            "orgName": "坪山所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b69",
-            "orgName": "石井所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b6a",
-            "orgName": "碧岭所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a78",
-            "parentName": "坪山局",
-            "seqNo": 1
-          }
-        ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 8
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a7f",
-        "orgName": "光明局",
-        "orgTreeListRspDTOS": [
-          {
-            "orgId": "5e01ba3089977558c3167b6d",
-            "orgName": "光明局农业和农产品监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b6e",
-            "orgName": "光明局党建人事科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b6f",
-            "orgName": "光明局食品安全监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b70",
-            "orgName": "光明局信用监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b71",
-            "orgName": "光明局特种设备安全监察科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b72",
-            "orgName": "光明局许可注册科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b73",
-            "orgName": "光明局药品化妆品监管科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b74",
-            "orgName": "光明局质量标准计量科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b75",
-            "orgName": "光明局办公室",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b76",
-            "orgName": "光明局法制科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b77",
-            "orgName": "光明局稽查科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b79",
-            "orgName": "光明局指挥协调科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b7b",
-            "orgName": "光明局畜牧兽医科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e479d8189977507465ccc75",
-            "orgName": "光明局消委会",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b7a",
-            "orgName": "公明所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b7c",
-            "orgName": "光明所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b7d",
-            "orgName": "玉塘所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b7e",
-            "orgName": "马田所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b7f",
-            "orgName": "新湖所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b81",
-            "orgName": "凤凰所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a7f",
-            "parentName": "光明局",
-            "seqNo": 1
-          }
-        ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 9
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a85",
-        "orgName": "大鹏局",
-        "orgTreeListRspDTOS": [
-          {
-            "orgId": "5e4f861489977507465ccd42",
-            "orgName": "二组市场队",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a85",
-            "parentName": "大鹏局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e4f86844e6b4477fbb287ee",
-            "orgName": "二组稽查队",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a85",
-            "parentName": "大鹏局",
-            "seqNo": 2
-          },
-          {
-            "orgId": "5e4f866089977507465ccd44",
-            "orgName": "二组复工队",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a85",
-            "parentName": "大鹏局",
-            "seqNo": 3
-          },
-          {
-            "orgId": "5e4f86e14e6b4477fbb287f0",
-            "orgName": "三组保供组",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a85",
-            "parentName": "大鹏局",
-            "seqNo": 4
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b8f",
-            "orgName": "葵涌所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a85",
-            "parentName": "大鹏局",
-            "seqNo": 5
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b8d",
-            "orgName": "大鹏所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a85",
-            "parentName": "大鹏局",
-            "seqNo": 6
-          },
-          {
-            "orgId": "5e01ba3089977558c3167b91",
-            "orgName": "南澳所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a85",
-            "parentName": "大鹏局",
-            "seqNo": 7
-          }
-        ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 10
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a8a",
-        "orgName": "深汕局",
-        "orgTreeListRspDTOS": [
-          {
-            "orgId": "5e01ba2f89977558c3167a1f",
-            "orgName": "深汕局行政综合组（人事监察组）",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ab0",
-            "orgName": "深汕局许可登记组",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ab6",
-            "orgName": "深汕局食品药品监管组（医疗器械监管组）",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167aba",
-            "orgName": "深汕局质监组（知识产权组）",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167abd",
-            "orgName": "深汕局稽查组（价格监督检查组）",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ac0",
-            "orgName": "鹅埠所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e01ba2f89977558c3167ac2",
-            "orgName": "鲘门所",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          },
-          {
-            "orgId": "5e4e07124e6b4477fbb287e8",
-            "orgName": "深汕局指挥科",
-            "orgTreeListRspDTOS": [],
-            "parentId": "5e01ba2f89977558c3167a8a",
-            "parentName": "深汕局",
-            "seqNo": 1
-          }
-        ],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 11
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a25",
-        "orgName": "办公室",
-        "orgTreeListRspDTOS": [],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 13
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167aa3",
-        "orgName": "药品处",
-        "orgTreeListRspDTOS": [],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 14
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167aa4",
-        "orgName": "医械处",
-        "orgTreeListRspDTOS": [],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 15
-      },
-      {
-        "orgId": "5e01ba2e89977558c3167a0d",
-        "orgName": "市市场稽查局",
-        "orgTreeListRspDTOS": [],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 16
-      },
-      {
-        "orgId": "5e01ba2f89977558c3167a89",
-        "orgName": "药检院",
-        "orgTreeListRspDTOS": [],
-        "parentId": "5e01ba2e89977558c3167a0a",
-        "parentName": "深圳市监局(办公通)",
-        "seqNo": 17
+        "authorize": "",
+        "uniqueId": "60ac7592aa374bd8b0d7993f04cd45b9",
+        "ID": "60ac7592aa374bd8b0d7993f04cd45b9",
+        "FIELD": "item_type_name",
+        "LABEL": "事项行业类别",
+        "RSHIP": 0,
+        "COMPARETYPE": 6,
+        "UINAME": 4,
+        "UICOMPONET": "列表",
+        "UIDEFAULT": "",
+        "ORDERINDEX": 7,
+        "DATA": {
+          "农业类": "农业类",
+          "医械类": "医械类",
+          "市场类": "市场类",
+          "特设类": "特设类",
+          "其他": "其他",
+          "信用类": "信用类",
+          "质量类": "质量类",
+          "药品类": "药品类",
+          "计量类": "计量类",
+          "化妆品类": "化妆品类",
+          "畜牧类": "畜牧类",
+          "广告类": "广告类",
+          "食品经营与生产": "食品经营与生产"
+        }
       }
     ]
   }
-]
+}

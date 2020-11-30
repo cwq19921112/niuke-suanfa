@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a1834a-c402-4816-a9ce-f885583f2c79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code01_PreInPosTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code03_TreeMaxWidth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code01_PreInPosTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
+            <state relative-caret-position="478">
+              <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code03_TreeMaxWidth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#265#271#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="353" column="26" selection-start-line="353" selection-start-column="26" selection-end-line="353" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -34,9 +59,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>receiver_card_type</find>
       <find>大鹏局</find>
       <find>afterOrderRecur</find>
+      <find>home_</find>
+      <find>receiver_card_type</find>
+      <find>applicant_id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -45,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/test.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class04/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class04/NodeUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class04/Code03_PrintCommonPart.java" />
@@ -58,6 +84,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class04/Code06_CopyListWithRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class04/Code07_FindFirstIntersectNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code01_PreInPosTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/test.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code03_TreeMaxWidth.java" />
       </list>
     </option>
   </component>
@@ -73,7 +101,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,16 +134,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chenwuqiang" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="niuke-suanfa" type="b2602c69:ProjectViewProjectNode" />
+              <item name="niuke-suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chenwuqiang" type="462c0819:PsiDirectoryNode" />
+              <item name="class05" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605948113524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1606739689845" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -136,9 +173,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code01_PreInPosTraversal">
+  <component name="RunManager" selected="Application.Code03_TreeMaxWidth">
     <configuration name="Code01_PreInPosTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chenwuqiang.class05.Code01_PreInPosTraversal" />
+      <module name="niuke-suanfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenwuqiang.class05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code03_TreeMaxWidth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chenwuqiang.class05.Code03_TreeMaxWidth" />
       <module name="niuke-suanfa" />
       <extension name="coverage">
         <pattern>
@@ -189,26 +239,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chenwuqiang.TestSign" />
-      <module name="niuke-suanfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chenwuqiang.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code03_TreeMaxWidth" />
         <item itemvalue="Application.Code01_PreInPosTraversal" />
         <item itemvalue="Application.Code07_FindFirstIntersectNode" />
         <item itemvalue="Application.Code06_CopyListWithRandom" />
         <item itemvalue="Application.Code05_SmallerEqualBigger" />
-        <item itemvalue="Application.TestSign" />
       </list>
     </recent_temporary>
   </component>
@@ -242,17 +279,22 @@
       <workItem from="1605231042522" duration="155000" />
       <workItem from="1605768876784" duration="7743000" />
       <workItem from="1605857747889" duration="7216000" />
-      <workItem from="1605940075961" duration="3840000" />
+      <workItem from="1605940075961" duration="4572000" />
+      <workItem from="1606202808718" duration="6334000" />
+      <workItem from="1606354180935" duration="2113000" />
+      <workItem from="1606708719616" duration="22000" />
+      <workItem from="1606738939049" duration="586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78434000" />
+    <option name="totallyTimeSpent" value="88221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19240098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18997575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -301,13 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
           <caret line="107" column="5" selection-start-line="107" selection-start-column="5" selection-end-line="107" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1052">
-          <caret line="1424" column="23" selection-start-line="1424" selection-start-column="20" selection-end-line="1424" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -409,10 +444,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/test.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="353" column="26" selection-start-line="353" selection-start-column="26" selection-end-line="353" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code01_PreInPosTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="115" column="50" selection-start-line="115" selection-start-column="50" selection-end-line="115" selection-end-column="50" />
+        <state relative-caret-position="478">
+          <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_172/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1006">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenwuqiang/class05/Code03_TreeMaxWidth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#271#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
